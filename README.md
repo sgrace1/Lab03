@@ -15,4 +15,4 @@ sum = 15
 
 7. 4.4 is shown when it shouldn't be. This is because when working with floats the computer will cut off some of the binary off of the number causing a small degree of error and make the computer believe that it has not yet hit 4.4.
 
-8. When using a double the intended output is displayed.
+8. When using a double the intended output is displayed. Because a double can hold more information and is thus more reliable for bigger numbers of more complex math
