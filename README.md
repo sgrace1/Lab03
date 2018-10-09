@@ -1,6 +1,7 @@
 # Lab03
 
-1. ((Lab03.cpp))
+1. n = 5
+sum = 15
 
 2. You could detect an overflow by checking too see if the number has switched to a negative number. n = 256 produces and overflow.The largest summation is 32640.
 
@@ -10,6 +11,8 @@
 
 5. overflows at  n = 170
 
-6. That it will aproach a whole number but never actually hit it. It will start to approach the number as expected but it will overflow and jump to the whole number.
+6. Expected value is the n you put in. When you use a float it does not work and returns a value higher then the given n. When using a double it works as expected.
 
-7.
+7. 4.4 is shown when it shouldn't be. This is because when working with floats the computer will cut off some of the binary off of the number causing a small degree of error and make the computer believe that it has not yet hit 4.4.
+
+8. When using a double the intended output is displayed.
